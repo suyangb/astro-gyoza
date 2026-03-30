@@ -24,7 +24,11 @@ export default defineConfig({
   integrations: [
     tailwind(),
     react(),
-    sitemap(),
+    // 修复 sitemap 报错
+    sitemap({
+      canonicalURL: site.url,
+      filter: (page) => !page.includes('/404'),
+    }),
     swup({
       theme: false,
       animationClass: 'swup-transition-',
