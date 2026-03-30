@@ -11,7 +11,7 @@ import { remarkSpoiler } from './src/plugins/remarkSpoiler'
 import { remarkEmbed } from './src/plugins/remarkEmbed'
 import tailwind from '@astrojs/tailwind'
 import react from '@astrojs/react'
-import sitemap from '@astrojs/sitemap'
+// import sitemap from '@astrojs/sitemap'
 import { rehypeHeadingIds } from '@astrojs/markdown-remark'
 import { site } from './src/config.json'
 import remarkMath from 'remark-math'
@@ -24,11 +24,11 @@ export default defineConfig({
   integrations: [
     tailwind(),
     react(),
-    // 修复 sitemap 报错
-    sitemap({
-      canonicalURL: site.url,
-      filter: (page) => !page.includes('/404'),
-    }),
+    // sitemap 暂时注释，解决构建报错
+    // sitemap({
+    //   canonicalURL: site.url,
+    //   filter: (page) => !page.includes('/404'),
+    // }),
     swup({
       theme: false,
       animationClass: 'swup-transition-',
