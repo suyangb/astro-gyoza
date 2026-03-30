@@ -1,7 +1,7 @@
 {
   "site": {
-    "url": "https://gyoza.lxchapu.com",
-    "title": "Gyoza",
+    "url": "https://wsyblog.cn",
+    "title": "王苏洋Blog",
     "description": "这是一个使用 Astro 和 React 开发的博客主题。",
     "keywords": "Gyoza,blog,Astro,theme,lxchapu,博客主题",
     "lang": "zh-CN",
@@ -14,7 +14,7 @@
     "avatar": "https://s2.loli.net/2024/04/30/ozsnuS5Ihf3xMBG.webp"
   },
   "hero": {
-    "name": "Gyoza",
+    "name": "王苏洋",
     "bio": "A static blog template build with Astro and React.",
     "description": "Clean, Cute, Fast.",
     "socials": [
@@ -33,7 +33,7 @@
       {
         "name": "Email",
         "icon": "icon-mail",
-        "url": "mailto:lxchapu@outlook.com",
+        "url": "1493367306@qq.com",
         "color": "rgb(212, 70, 56)"
       }
     ],
@@ -95,10 +95,10 @@
     "perPage": 10
   },
   "footer": {
-    "startTime": "2024-04-14T00:00:00Z"
+    "startTime": "2025-07-17T00:00:00Z"
   },
   "waline": {
-    "serverURL": "https://waline.lxchapu.com"
+    "serverURL": "https://pinglun.wsyblog.cn"
   },
   "sponsor": {
     "wechat": "https://object.lxchapu.com/bed%2F2024%2F0507_6e3e8f73df2d4e6d.webp"
