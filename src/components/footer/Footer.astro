@@ -10,7 +10,6 @@ const thisYear = new Date().getFullYear()
 const copyDate = sinceYear === thisYear ? thisYear : `${sinceYear} - ${thisYear}`
 
 const wordCount = await getAllPostsWordCount()
-
 const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
 ---
 
@@ -38,6 +37,25 @@ const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
       <span class="select-none opacity-50">|</span>
       <span>共嘚嘚了 {wordCountStr} 字</span>
     </div>
+
+    <!-- ICP备案 + 公安备案 官方标准格式 -->
+    <div class="mt-2 space-x-3 flex flex-wrap items-center justify-center gap-x-3">
+      <a href="https://beian.miit.gov.cn/" 
+         target="_blank" rel="noopener noreferrer"
+         class="hover:text-primary transition-colors">
+        皖ICP备2024049551号-2
+      </a>
+
+      <a href="https://www.beian.gov.cn/"
+         target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center hover:text-primary transition-colors">
+        <img src="https://www.beian.gov.cn/img/ghs.png"
+             class="h-4 w-auto mr-1"
+             alt="公安备案标识">
+        皖公网安备34162202003345号
+      </a>
+    </div>
+
   </div>
   <div class="mt-4 flex justify-center">
     <ThemeSwitch client:only="react" />
