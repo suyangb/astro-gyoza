@@ -4,27 +4,37 @@ description: 这是一份站长的自述报告，请查收。
 comments: false
 ---
 
-## 关于 Gyoza
+# 关于我 / About Me
 
-Gyoza 是一个使用 Astro 和 React 开发的博客主题。Gyoza 借鉴了 [Shiro](https://github.com/innei/Shiro) 和一些网站的设计。
+你好！我是 **王苏洋** ，一个在数字世界中默默无闻的一片叶子。
 
-Gyoza 的核心理念是简洁，快速，可爱。
+## 🛠️ 关于本站
 
-- 在 [Markdown 示例](/posts/markdown) 中展示了 Markdown 的渲染样式
-- 可以前往 [Gyoza 使用指南](/posts/guide) 了解 Gyoza 的使用方法
+这个网站使用 **Astro** 框架构建，代码托管 **GitHub** 部署于 **Tencent EdgeOne** 采用了 [Gyoza](https://github.com/lxchapu/astro-gyo) 模板。
 
-Gyoza 是开源的，如果你对这个项目感兴趣，欢迎前往 Gyoza 的 [Github 仓库](https://github.com/lxchapu/astro-gyoza) 来提 Issue 或者 PR。
+### 这种方式的优点：
 
-## 关于作者
+🧩 静态网站结构，维护简单
 
-我是 lxchapu，是一名前端开发者，喜欢各种有趣的东西。欢迎访问我的个人网站 [www.lxchapu.com](https://www.lxchapu.com)，了解关于我更多的信息。
+⚡ 全球 CDN 加速，访问速度更快
 
-## 致谢
+💰 成本低甚至免费
 
-感谢以下项目：
+🔧 自动化部署，更新方便
 
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Jotai](https://jotai.org/)
+## 📚 博客内容
+这里是我记录技术探索、分享生活感悟的地方。
+我热衷于探索新技术，追求简洁优雅的代码。工作之余，我喜欢折腾各种有趣的项目，也会在这里分享一些心得。
+
+## 📫 联系方式
+
+如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
+
+- 💻 **GitHub**: [suyangb](https://github.com/suyangb)
+- ✉️ **Email**: [1493367306@qq.com](mailto:1493367306@qq.com)
+- 🐧 **QQ：[1493367306](https://qm.qq.com/q/aqQCpWpbnW)**
+
+---
+
+*感谢你的来访！希望在这里能找到对你有用的内容！*
+
